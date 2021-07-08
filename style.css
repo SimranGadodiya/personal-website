@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;  
+}
+hr{
+   border-style:dotted none none; 
+   border-color: #bec5c5;
+   border-width: 5px;
+   width: 5%;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: Dancing Script;
+    color:#66BFBF;
+}
+.top p{
+    color: #66BFBF;
+    font-size: 2.0rem;
+    font-weight: normal;
+}
+
+.top{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.skills img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.middle-container img{
+    border-radius: 100%;
+}
+h2{
+    color:  #11999E;
+}
+.Bcloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.Tcloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    
+}
+.bottom-container a{
+    color:  #11999E;
+    font-weight: bold;
+}
+span{
+    text-decoration: underline;
+
+}.Rows{
+    display: flex;
+}
+.skill-row1{
+    margin-left: 15%;
+}
+.skill-row2{
+    margin-left: 15%;
+}
+.skill-row3{
+    margin-left: 15%;
+}
+.bottom-container p{
+    color: #EAF6F6;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    height: 50px;
+    padding: 2%;
+    margin-top: 10px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999b);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999b);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999b);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999b);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999b);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    line-height: 4;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .visiter{
+      padding: 0px;
+  }
+  
+  .header-right {
+    overflow: hidden;
+    background-color: #E4F9F5;
+    padding: 20px 10px;
+  }
+  .header-right a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header-right a:hover {
+    background-color: #ddd;
+    color: black;
+  }
